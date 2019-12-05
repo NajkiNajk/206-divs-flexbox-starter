@@ -197,28 +197,34 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  padding: 2em;
+  padding: 0em 2em;
+  font-size: 1.25em;
   color: #fff;
-  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  max-width: 1200px;
+}
+
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
-  /* width: 30%; */
-  height: auto;
+  font-size: 1em;
+  border-bottom: 1px solid #555;
 }
 
 .wrapper span {
